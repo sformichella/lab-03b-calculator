@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1 {
+    text-align: center;  
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main span {
+    padding: 10px 10px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main input {
+    min-height: 20px;
+    padding: 0px 10px;
+}
+
+main p {
+    height: 25px;
+    min-width: 25px;
+    text-align: center;
+    padding: 0px 10px;
+    border-bottom: solid 1px dimgrey;
+}
