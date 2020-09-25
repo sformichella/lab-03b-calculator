@@ -13,7 +13,6 @@ body {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -21,7 +20,7 @@ h1 {
     text-align: center;  
 }
 
-main {
+section {
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -29,7 +28,7 @@ main {
     align-items: center;
 }
 
-main span {
+section span {
     padding: 10px 10px;
     text-align: center;
     height: 50px;
@@ -40,15 +39,16 @@ main span {
     align-items: center;
 }
 
-main input {
+section input {
     min-height: 20px;
     padding: 0px 10px;
 }
 
-main p {
+section p {
     height: 25px;
     min-width: 25px;
     text-align: center;
     padding: 0px 10px;
+    margin: 20px;
     border-bottom: solid 1px dimgrey;
 }
